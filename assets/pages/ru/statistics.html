@@ -1,0 +1,147 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/normolize.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/statistics.css">
+    <link rel="shortcut icon" href="../../img/logo.ico">
+    <title>Статистика о Сарыарки</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="main__header">
+                <div class="header__left">
+                    <a href="../../../index.html"><img src="../../img/logo.png" alt="" class="logo"></a>
+                </div>
+                <div class="header__right">
+                    <nav class="header__nav">
+                        <a href="../../../index.html" class="header__nav__link">Главная</a>
+                        <a href="ecosystem.html" class="header__nav__link">Экосистема</a>
+                        <a href="history.html" class="header__nav__link">История</a>
+                        <a href="statistics.html" class="header__nav__link">Статистика</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+   <section class="intro">
+    <div class="intro__overlay"></div>
+        <div class="container">
+            <div class="intro__inner">
+                На просторах Сарыарки расположилось пять областей Казахстана: 
+                <ul>
+                    <li class="intro__list__item">Абайская</li>
+                    <li class="intro__list__item">Акмолинская</li>
+                    <li class="intro__list__item">Павлодарская</li>
+                    <li class="intro__list__item">Улытауская</li>
+                    <li class="intro__list__item">Карагандинская</li>
+                </ul>
+            </div>
+        </div>
+   </section>
+   <section class="demography">
+        <div class="container">
+            <div class="demography__inner">
+                <div class="demography__title">
+                    Демография
+                </div>
+                <div class="demography__info">
+                    <div class="demography__img">
+                        <img src="../../img/demography_image.jpg" alt="statistics">
+                    </div>
+                    <div class="demography__table">
+                        <table>
+                            <tr>
+                                <th>Название области</th>
+                                <th>Численность населения (тысяч)</th>
+                            </tr>
+                            <tr>
+                                <td>Абайская</td>
+                                <td>638,3</td>
+                            </tr>
+                            <tr>
+                                <td>Акмолинская</td>
+                                <td>785,8</td>
+                            </tr>
+                            <tr>
+                                <td>Павлодарская</td>
+                                <td>755</td>
+                            </tr>
+                            <tr>
+                                <td>Улытауская</td>
+                                <td>221</td>
+                            </tr>
+                            <tr>
+                                <td>Карагандинская</td>
+                                <td>1134,4</td>
+                            </tr>
+                        </table>
+                        <a href="https://stat.gov.kz/region/256619?lang=ru" class="info__source">Источник: stat.gov.kz</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <section class="industry">
+        <div class="container">
+            <div class="industry__inner">
+                <div class="industry__title">
+                    Промышленность
+                </div>
+                <div class="industry__info">
+                    <div class="industry__text">
+                        Сарыарку можно отнести как к центральному, так и северному Казахстану, поэтому говоря о промышленности затронем два данных региона. 
+                    </div>
+                    <div class="industry__tabs">
+                        <div class="industry__tab">
+                            <button class="industry__tab--link" id="click" onclick="openTab(event, 'northK')">Северный Казахстан</button>
+                            <button class="industry__tab--link" onclick="openTab(event, 'middleK')">Центральный Казахстан</button>
+                        </div>
+                        <div class="industry__tab--content" id="northK">
+                            <div class="industy__tab--title">
+                                Северный Казахстан
+                            </div>
+                            <p>
+                                Главная житница страны, ведущий экономический регион. Развиты сельское хозяйство и промышленность. Здесь проходят железнодорожные и речные магистрали. Недра весьма богаты каменным и бурым углем, железной и медной рудой, бокситами, золотом. Развиты топливно-энергетическая, горнодобывающая отрасли, машиностроение, имеются предприятия нефтепереработки, по производству ферросплавов, алюминия, тракторов. Значительное место в экономике региона занимает агропромышленный комплекс. Три четверти посевной площади отведены под зерновые культуры. Регион является основным производителем технических культур. Развита пищевая промышленность.
+                            </p>
+                        </div>
+                        <div class="industry__tab--content" id="middleK">
+                            <div class="industy__tab--title">
+                                Центральный Казахстан
+                            </div>
+                            <p>
+                                Регион специализируется на топливно-энергетическом комплексе, металлургическом комплексе, металлоемком машиностроении. Отрасли специализации определили весь хозяйственный комплекс региона. С работой металлургии связано машиностроение и химическая промышленность. Представлены отдельные отрасли легкой и пищевой промышленности, работающие на привозном сырье.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <section class="video">
+    <div class="container">
+        <div class="video__inner">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/x7FyLE3nrvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+   </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__main">
+                <div class="footer__left">
+                    <a href="https://www.nis.edu.kz/ru/schools/nis-ast-mat/">
+                        <img src="../../img/nis_logo.png" alt="" class="nis__logo">
+                    </a>
+                </div>
+                <div class="footer__right">
+                    <img src="../../img/logo.png" alt="" class="nis__logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../../js/statistics.js"></script>
+</body>
+</html>

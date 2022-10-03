@@ -1,0 +1,19 @@
+
+.inner{
+    padding: 30px 0;
+}
+.title{
+    font-size: 28px;
+    font-weight: 600;
+}
+.info{
+    padding: 20px 0;
+}
+.info p{
+    padding-bottom: 15px;
+}
+
+.legend, .kazhan{
+    background-color: #f7f7f7;
+}
+
