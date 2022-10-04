@@ -2,7 +2,7 @@
     height: 880px;
     display: flex;
     align-items: center;
-    background: url(../img/intro.JPG), no-repeat, center;
+    background: url(../img/intro_bg.gif), no-repeat, center;
     background-size: cover;
 }
 .intro__overflow{
@@ -22,10 +22,6 @@
 }
 .video{
     padding: 60px 0;
-}
-.video__main{
-    width: 560px; 
-    height: 315px;
 }
 .intro__inner{
     width: 650px;
