@@ -79,7 +79,7 @@ p, div{
 
 .footer{
     width: 100%;
-    height: 150px;
+    height: 200px;
     background: #F7F7F7;
 }
 .footer__main{
@@ -94,7 +94,11 @@ p, div{
 .footer__right img{
     height: 120px;
 }
-
+.title{
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
 .info__source{
     color: #777;
     font-size: 12px;
@@ -104,6 +108,32 @@ p, div{
 .info__source:hover{
     color: #666;
     text-decoration: underline;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.button__more{
+    text-decoration: none;
+}
+.button__more__text{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #98bd40;
+    transition: ease-in-out .2s;
+}
+.button__more:hover .button__more__text{
+    background-color: #88bd40;
+}
+.next__button__inner{
+    padding: 40px 0;
 }
 
 @media screen and (min-width: 800px) and (max-width: 1200px) {

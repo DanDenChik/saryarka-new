@@ -65,7 +65,7 @@
     height: 100px;
     border: none;
     font-size: 0;
-    
+    cursor: pointer;
 }
 .slick-prev{
     left: 0px;
