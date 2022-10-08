@@ -135,6 +135,15 @@ p, div{
 .next__button__inner{
     padding: 40px 0;
 }
+.footer__middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.footer__authors{
+    padding: 0 30px;
+}
 
 @media screen and (min-width: 800px) and (max-width: 1200px) {
     .container{
